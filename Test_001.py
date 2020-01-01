@@ -21,6 +21,10 @@ class Test001(object):
     def test_002(self):
         print('test002')
 
+    @pytest.mark.skipif(4 > 3, reason='错了')
+    def test_003(self):
+        allure.attach('哈哈哈哈哈')
+
 
 if __name__ == '__main__':
     pytest.main()
