@@ -22,7 +22,7 @@ class Test001(object):
         print('test002')
 
     def test_003(self):
-        print('003')
+        print('007')
 
 
 if __name__ == '__main__':
