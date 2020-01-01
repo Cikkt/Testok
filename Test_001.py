@@ -21,9 +21,6 @@ class Test001(object):
     def test_002(self):
         print('test002')
 
-    def test_003(self):
-        print('007')
-
 
 if __name__ == '__main__':
     pytest.main()
