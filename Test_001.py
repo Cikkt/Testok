@@ -24,9 +24,6 @@ class Test001(object):
     def test_003(self):
         print('test666')
 
-    def test_004(self):
-        print('1')
-
 
 if __name__ == '__main__':
     pytest.main()
